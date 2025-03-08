@@ -154,6 +154,9 @@ body {
 /* hero section start  */
 
 * hero section starts*/
+#home{
+  background-color: white;
+}
 .home {
   position: relative;
   display: flex;
