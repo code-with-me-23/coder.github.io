@@ -2,256 +2,558 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Surya</title>
-  <link rel="icon" type="image/jpeg" href="assets/image/main logo.jpeg">
-  <link rel="stylesheet" href="aashu.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@200..800&family=Dosis:wght@200..800&family=Grechen+Fuemen&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="assets/css/script.js"></script>
-  <script src="assets/css/script2.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya</title>
+    <link rel="icon" type="image/jpeg" href="assets/image/main logo.jpeg">
+    <link rel="stylesheet" href="aashu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@200..800&family=Dosis:wght@200..800&family=Grechen+Fuemen&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/css/script.js"></script>
+    <script src="assets/css/script2.js"></script>
 
 </head>
 
 <body>
-  <!-- hero section starts -->
-  <section class="home" id="home">
-    <div id="particles-js"></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="#home">Surya<span>.</span></a>
+        </div>
 
-    <div class="content">
-      <h2>Hi There<br />I'm Abhishek<span> <br>Surya</span></h2>
-      <p>💫💫<span class="typing-text"></span></p>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 
-      <a href="#about" class="btn"><span>About Me</span>
-        <i class="fas fa-arrow-circle-down"></i>
-      </a>
-      <div class="socials">
-        <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn"
-              href="https://www.instagram.com/abhishek_23v?igsh=b3c2cXY1bGw4aHdw" target="_blank"><i
-                class="fab fa-linkedin"></i></a></li>
-          <li><a class="github" aria-label="GitHub" href="https://www.instagram.com/abhishek_23v?igsh=b3c2cXY1bGw4aHdw"
-              target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a class="twitter" aria-label="Twitter"
-              href="https://www.instagram.com/abhishek_23v?igsh=b3c2cXY1bGw4aHdw" target="_blank"><i
-                class="fab fa-twitter"></i></a></li>
-          <li><a class="telegram" aria-label="Telegram"
-              href="https://www.instagram.com/abhishek_23v?igsh=b3c2cXY1bGw4aHdw" target="_blank"><i
-                class="fab fa-telegram-plane"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram"
-              href="https://www.instagram.com/abhishek_23v?igsh=b3c2cXY1bGw4aHdw"><i class="fab fa-instagram"
-                target="_blank"></i></a></li>
-          <li><a class="dev" aria-label="Dev" href="https://www.instagram.com/abhishek_23v?igsh=b3c2cXY1bGw4aHdw"
-              target="_blank"><i class="fab fa-dev"></i></a></li>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-      </div>
-    </div>
-    <div class="image">
-      <img draggable="false" class="tilt" src="./assets/images/9.webp" alt="">
-    </div>
-  </section>
-  <!-- hero section ends -->
-<br><br><br>
-  <!--About me // my information-->
+    </nav>
 
 
-  <!-- about section starts -->
-  <section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
 
-    <div class="row">
+    <!-- hero section starts -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
 
-      <div class="image">
-        <img draggable="false" class="tilt" src="assets/image/5.jpg" alt="">
-      </div>
-      <div class="content">
-        <h3 style="color: aqua;">I'm Abhishek</h3>
-        <span class="tag">Web Developer</span>
-        <P>
-        <h1>
-          <ul style="list-style-type: none;">
-            <li><b style="color: aqua;">My Name </b>:- Abhishek Surya</li>
-            <li><b style="color: aqua;">Job Role </b>:- None</li>
-            <li><b style="color: aqua;">Education</b> :- BCA 1st Year</li>
-            <li><b style="color: aqua;">Address</b style="color:aqua;"> :- Indore, India</li>
-          </ul>
-        </h1>
-        </P>
-        <div class="box-container">
-          <div class="box">
-            <p><span> age: </span> 20</p>
-            <p><span> phone : </span> +91 74406058XX</p>
-          </div>
-          <div class="box">
-            <p><span> Email : </span>abhisheksurya2005@gmail.com</p>
-            <p><span> Place : </span> Dewas, India - 455223</p>
-          </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="animate-text">Hello, I'm
+                    <span class="highlight">Abhishek Surya</span>
+                </h1>
+                <div class="typewriter">
+                    <!-- <span class="typed-text">hello</span><span class="cursor">&nbsp;</span> -->
+                </div>
+                <p class="hero-description">Passionate Web Developer from India</p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="primary-btn">
+                        <span>About Me</span>
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                    <a href="#projects" class="secondary-btn">
+                        <span>My Work</span>
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
         </div>
 
-        <div class="resumebtn">
-          <a href="" target="_blank" class="btn"><span>Resume</span>
-            <i class="fas fa-chevron-right"></i>
-          </a>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrows">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
+    </section>
+    <!-- hero section ends -->
 
-      </div>
-    </div>
-  </section>
-  <!-- about section ends -->
+    <!--About me // my information-->
+
+
+    <!-- about section starts -->
+    <!-- Add reveal classes to your sections -->
+    <section class="about reveal" id="about">
+        <h2 class="heading reveal-text"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+        <div class="about-container">
+            <div class="image-side">
+                <div class="image-wrapper">
+                    <img draggable="false" class="profile-img" src="assets/image/me 1.jpg" alt="">
+                    <!-- <div class="image-overlay"></div> -->
+                </div>
+            </div>
+
+            <div class="content-side">
+                <h3 class="title">I'm <span class="highlight">Abhishek</span></h3>
+                <span class="subtitle">Web Developer</span>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <h4>Name</h4>
+                        <p>Abhishek Surya</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-briefcase"></i>
+                        <h4>Role</h4>
+                        <p>Web Developer</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Education</h4>
+                        <p>BCA 1st Year</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Location</h4>
+                        <p>Indore, India</p>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-row">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 7440605819</span>
+                    </div>
+                    <div class="info-row">
+                        <i class="fas fa-envelope"></i>
+                        <span>abhisheksurya2005@gmail.com</span>
+                    </div>
+                    <div class="info-row">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Dewas, India - 455223</span>
+                    </div>
+                </div>
+
+                <div class="resume-btn">
+                    <a href="" class="download-btn">
+                        <span>Download CV</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
 
     <!-- education section starts -->
-    <section class="education" id="education">
+    <section class="education reveal" id="education">
+        <h2 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h2>
 
-      <h1 class="heading" style="text-align: center;"><i class="fas fa-graduation-cap"></i> My <span>Education</span>
-      </h1>
+        <p class="education-quote">Education is not the learning of facts, but the training of the mind to think.</p>
 
-      <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+        <div class="education-cards">
+            <div class="edu-card">
+                <div class="edu-image">
+                    <img draggable="false" src="assets/image/school4.jpg" alt="school">
+                    <div class="edu-overlay"></div>
+                </div>
+                <div class="edu-content">
+                    <div class="edu-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>HIMALAYA HIGHER Secondary SCHOOL NEORI</h3>
+                    <p class="edu-program">Higher Secondary Education</p>
+                    <div class="edu-status">
+                        <span class="year">2023-2024</span>
+                        <span class="badge">MP BOARD | Completed</span>
+                    </div>
+                </div>
+            </div>
 
-      <div class="box-container">
-
-        <div class="box">
-          <div class="image">
-            <img draggable="false" src="assets/image/collageimage.jpg" alt="_blank">
-          </div>
-          <div class="content">
-            <h3>GOVT NIRBHAY SING PATEL SCIENCE COLLAGE</h3>
-            <p></p>
-            <h4>1<sup>st</sup> Year Running |</h4>
-          </div>
+            <div class="edu-card">
+                <div class="edu-image">
+                    <img draggable="false" src="assets/image/collageimage.jpg" alt="college">
+                    <div class="edu-overlay"></div>
+                </div>
+                <div class="edu-content">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>GOVT NIRBHAY SING PATEL SCIENCE COLLEGE</h3>
+                    <p class="edu-program">Bachelor of Computer Applications</p>
+                    <div class="edu-status">
+                        <span class="year">2023 - Present</span>
+                        <span class="badge">1<sup>st</sup> Year Running</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="box">
-          <div class="image">
-            <img draggable="false" src="assets/image/school4.jpg" alt="">
-          </div>
-          <div class="content">
-            <h3> HIMALAYA HIGHER Secondary SCHOOL NEORI</h3>
-            <p>MP BOARD</p>
-            <h4>2023-2024 | Completed</h4>
-          </div>
-        </div>
-
-      </div>
     </section>
     <!-- education section ends -->
 
 
-    <!--describe projects-->
+    <!--projects section starts -->
+    <section id="projects" class="projects reveal">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> My <span>Projects</span></h2>
 
-    <section id="projects">
-      <h1>Projects</h1>
-      <div class="projects-container">
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/image/project.png" alt="Shopping Page">
+                    <div class="project-overlay">
+                        <a href="https://code-with-me-23.github.io/project.github.io/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Shopping Page</h3>
+                    <p>An e-commerce website with modern design and user-friendly interface</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
 
-        <div class="project">
-          <h3 class="card">Project 1</h3><br><br>
-          <h2>Shopping Page</h2><br>
-          <p><img src="assets/image/project.png" alt="" height="130px" width=""></p>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/image/project portfolio.png" alt="Portfolio">
+                    <div class="project-overlay">
+                        <a href="Portfolio-Website-@techoverflows/index.html" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Portfolio Website</h3>
+                    <p>Personal portfolio showcasing skills and achievements</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
 
-          <button>
-            <a href="https://code-with-me-23.github.io/project.github.io/">click me</a>
-          </button></a>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/image/project 3.png" alt="Creative Design">
+                    <div class="project-overlay">
+                        <a href="https://code-with-me-23.github.io/creative.github.io/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Creative Coaching </h3>
+                    <p>Make a Coaching web page (Creative Coaching Institude)</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Creative</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="project">
-
-
-          <h3 class="card">Project 2</h3><br><br>
-          <h2>Portfolio</h2><br>
-          <p><img src="assets/image/project portfolio.png" alt="" height="130px" width=""></p>
-
-          <button>
-            <a href="Portfolio-Website-@techoverflows/index.html">click me</a>
-          </button></a>
-        </div>
-      </div>
     </section>
+    <!-- projects section ends -->
 
-    <!--describe skills-->
+    <!-- Replace the existing skills section with this -->
+    <section id="skills" class="skills reveal">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> My <span>Skills</span></h2>
 
-    <section id="skills">
-      <h1>Skills</h1>
-      <ul class="skills-list">
-        <li>HTML
-          <br>
-          70%
-        </li>
-        <li>CSS<br>
-          50%</li>
-        <li>JavaScript<br>
-          None</li>
-        <li>React<br>
-          None</li>
-        <li>Node.js<br>
-          None</li>
-      </ul>
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                </div>
+
+                <div class="skills-progress">
+                    <div class="skill-item">
+                        <h3 class="skill-name">HTML <i class="fab fa-html5"></i></h3>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="70%" style="max-width:70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <h3 class="skill-name">CSS <i class="fab fa-css3-alt"></i></h3>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="50%" style="max-width:50%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <h3 class="skill-name">JavaScript <i class="fab fa-js"></i></h3>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="10%" style="max-width:10%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Frameworks</h3>
+                </div>
+
+                <div class="skills-progress">
+                    <div class="skill-item">
+                        <h3 class="skill-name">React <i class="fab fa-react"></i></h3>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="5%" style="max-width:5%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <h3 class="skill-name">Node.js <i class="fab fa-node-js"></i></h3>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="5%" style="max-width:5%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- contact section starts -->
-    <section class="contact" id="contact">
+    <!-- Replace the existing contact section -->
+    <section class="contact reveal" id="contact">
+        <h2 class="heading"><i class="fas fa-paper-plane"></i> Get in <span>Touch</span></h2>
 
-      <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info-container">
+                <div class="contact-info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info">
+                        <h3>Location</h3>
+                        <p>Dewas, India - 455223</p>
+                    </div>
+                </div>
 
-      <div class="container">
-        <div class="content">
-          <div class="image-box">
-            <img draggable="false" src="assets/image/contact1.png" alt="">
-          </div>
-          <form id="contact-form">
+                <div class="contact-info-box">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info">
+                        <h3>Email</h3>
+                        <p>abhisheksurya2005@gmail.com</p>
+                    </div>
+                </div>
 
-            <div class="form-group">
-              <div class="field">
-                <input type="text" name="name" placeholder="Name" required>
-                <i class='fas fa-user'></i>
-              </div>
-              <div class="field">
-                <input type="text" name="email" placeholder="Email" required>
-                <i class='fas fa-envelope'></i>
-              </div>
-              <div class="field">
-                <input type="text" name="phone" placeholder="Phone">
-                <i class='fas fa-phone-alt'></i>
-              </div>
-              <div class="message">
-                <textarea placeholder="Message" name="message" required></textarea>
-                <i class="fas fa-comment-dots"></i>
-              </div>
+                <div class="contact-info-box">
+                    <i class="fas fa-phone"></i>
+                    <div class="info">
+                        <h3>Phone</h3>
+                        <p>+91 74406058XX</p>
+                    </div>
+                </div>
             </div>
-            <div class="button-area">
-              <button type="submit">
-                Submit <i class="fa fa-paper-plane"></i></button>
+
+            <div class="contact-form-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="input-box">
+                        <input type="text" name="name" required="required">
+                        <span>Full Name</span>
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="email" name="email" required="required">
+                        <span>Email Address</span>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="tel" name="phone">
+                        <span>Phone (Optional)</span>
+                        <i class="fas fa-phone"></i>
+                    </div>
+
+                    <div class="input-box textarea">
+                        <textarea name="message" required="required"></textarea>
+                        <span>Type your message...</span>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+
+                    <button type="submit" class="send-btn">
+                        Send Message
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
             </div>
-          </form>
         </div>
-      </div>
     </section>
     <!-- contact section ends -->
 
-    <div class="socal">
-      <a class="glassIco" href="https://www.instagram.com/abhishek_23v?igsh=b3c2cXY1bGw4aHdw"><i
-          class=" fab fa-instagram"></i></a>
+    <!-- Replace the social and footer section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Abhishek Surya</h3>
+                <p>Web Developer & Designer</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/abhishek_23v" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/18hKkBAMiz/" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://zbazaarsolutions.com/invite?referrer=ZP927058" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
 
-      <a class="glassIco" href="https://www.facebook.com/share/18hKkBAMiz/"><i class="fab fa-facebook-f"></i></a>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
 
-      <a class="glassIco" href="https://zbazaarsolutions.com/invite?referrer=ZP927058"><i
-          class="fab fa-linkedin-in"></i></a>
-      <!-- <a class="glassIco" href="#"><i class="fab fa-whatsapp"></i></a> -->
-    </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-envelope"></i> abhisheksurya2005@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +91 7440605819</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Dewas, India</li>
+                </ul>
+            </div>
+        </div>
 
-    <footer>
-      <p>&copy; 2025 [Abhishek Surya]. All Rights Reserved.</p>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2024 Abhishek Surya. All Rights Reserved.</p>
+            </div>
+            <div class="footer-designer">
+                <p>Designed with <i class="fas fa-heart"></i> by Abhishek</p>
+            </div>
+        </div>
     </footer>
 
+    <script>
+        // Navigation Toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-link');
 
-    <!-- particle.js links -->
-    <script src="assets/css/particles.min.js"></script>
-    <script src="assets/css/app.js"></script>
-    <script src="assets/css/script.js"></script>
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Active link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+    <!-- Add this before closing body tag -->
+    <script>
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var revealTop = reveals[i].getBoundingClientRect().top;
+                var revealPoint = 150;
+
+                if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('active');
+                }
+            }
+        }
+    </script>
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('img');
+            
+            images.forEach(img => {
+                img.addEventListener('contextmenu', function(e) {
+                    e.preventDefault();
+                    alert('😎 😎 na bacha na tuj se na ho pai ga');
+                });
+                
+                img.addEventListener('dragstart', function(e) {
+                    e.dataTransfer.setData('text/plain', '😎 Happy Downloading! - From Abhishek\'s Portfolio');
+                });
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('copy', function(e) {
+            // Prevent the default copy behavior
+            e.preventDefault();
+            
+            // Get the selected text
+            const selectedText = window.getSelection().toString();
+            
+            // Create the modified text with emoji
+            const modifiedText = '😎' + '\n\n😂 Nice try 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂 😂';
+            
+            // Set the modified text to clipboard
+            e.clipboardData.setData('text/plain', modifiedText);
+        });
+    </script>
 </body>
-
 </html>

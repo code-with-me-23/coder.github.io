@@ -101,6 +101,16 @@ async function fetchData(type = "skills") {
     return data;
 }
 
+// Add delay attribute to skills boxes
+document.querySelectorAll('.skills-box').forEach((box, index) => {
+    box.style.setProperty('--delay', index + 1);
+});
+
+// Add delay attribute to skill bars
+document.querySelectorAll('.skill-per').forEach((bar, index) => {
+    bar.style.setProperty('--delay', index + 1);
+});
+
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
     let skillHTML = "";
@@ -261,3 +271,31 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+z
+
+
+// Typing animation
+const texts = ["Web Developer", "UI Designer", "Freelancer"];
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
+
+function type() {
+    if (count === texts.length) {
+        count = 0;
+    }
+    currentText = texts[count];
+    letter = currentText.slice(0, ++index);
+
+    document.querySelector(".typed-text").textContent = letter;
+    if (letter.length === currentText.length) {
+        setTimeout(() => {
+            index = 0;
+            count++;
+        }, 2000);
+    }
+    setTimeout(type, 200);
+}
+
+window.onload = type;
